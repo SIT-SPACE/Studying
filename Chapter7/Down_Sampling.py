@@ -33,7 +33,7 @@ plt.title("Original Data")
 
 plt.subplot(1,2,2)
 plt.scatter(df_downsampling.iloc[:,0],
-            df_downsampling.iloc[:,1],
+            df_downsampling.iloc[:,1], 
             color=colors[df_downsampling['Class']], linewidths=0.1)
 plt.title("Downsampling")
 plt.show()
